@@ -11,7 +11,7 @@ const Main = () => {
                     <img src="./gato1.jpg" class="d-block w-100" alt="..."></img>
                         <div className="carousel-caption d-none d-md-block">
                             <h5>Jorge</h5>
-                            <p>Tuvo un pasado triste y busca la redención.</p>
+                            <p>Tuvo un pasado triste y busca la redención...</p>
                         </div>
                         
                 </div>

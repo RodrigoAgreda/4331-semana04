@@ -1,5 +1,5 @@
 const Message = ({ message }) => {
-    return <h1>Message: {message}</h1>;
+    return <h1>Misión: {message}</h1>;
 }
 
 export default Message;

@@ -1,6 +1,10 @@
 const Footer = () => {
     return <footer>
-        <p>footer</p>
+        <br/>
+        <br/>
+        <p> - Autor: Agreda Iparraguirre Rodrigo</p>
+        <p> - Contacto: <a href="mailto:ragredai1@upao.edu.pe">ragredai1@upao.edu.pe</a></p>
+
     </footer>;
 }
 

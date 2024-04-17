@@ -10,17 +10,26 @@ import Footer from "./footer";
 const root = createRoot(document.getElementById("root"));
 root.render(
     <StrictMode>
-        <Header></Header>
-        <div className="container">
-            <div className="row">
-                <div className="col-md-8">
-                    <Main></Main>
-                </div>
-                <div className="col-md-4">
-                    <Aside></Aside>
+        <Header>
+        </Header>
+        <body>
+            <div className="container">
+                <div className="row">
+                    <div className="col-md-8">
+                        <Main></Main>
+                        <h1>Misión:</h1>
+                        <p>¡Nos enfocamos en conseguirles hogar a estos malditos rebeldes! <br/> ¡Nos ayudarias mucho con tu apoyo!</p>
+                    </div>
+                    <div className="col-md-4">
+                        <Aside></Aside>
+                    </div>
                 </div>
             </div>
-        </div>
-        <Footer></Footer>
+            
+        </body>
+
+        <Footer>
+
+        </Footer>
     </StrictMode>
 );
